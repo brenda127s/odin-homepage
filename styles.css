@@ -4,3 +4,71 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header-content {
+    border: 1px red solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+figure {
+    border: 1px gray solid;
+}
+
+figure img {
+    float: left;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+    z-index: -1;
+    inset: 0;
+    /* transform: skewY(-8deg); */
+
+}
+
+.header-description {
+    border: 1px green solid;
+    margin: 10px;
+    flex: 1;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.header-links {
+    border: 1px blue solid;
+    margin: 10px;
+}
+
+.header-content .icon,
+.links .icon {
+    max-width: 8vh;
+    height: auto;
+}
+
+/* .header-links .linkedin {
+    max-width: 100px;
+    height: auto;
+} */
+
+.all-projects .icon {
+    max-width: 4vh;
+    height: auto;
+}
+
+
+figure > img,
+.footer-portrait {
+    max-width: 48vh;
+    height: auto;
+}
